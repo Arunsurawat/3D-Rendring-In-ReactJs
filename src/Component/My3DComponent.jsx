@@ -12,7 +12,7 @@ function My3DComponent() {
             fetch(url)
               .then((data) => {
                 if(data.status === 200){  
-                    return data.url;
+                    return data;
                 }
               })
               .catch((e)=>{
